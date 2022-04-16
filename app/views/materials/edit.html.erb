@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>edit a form</h1>
+  <%= simple_form_for(@material) do |f|%>
+    <%= f.input :name%>
+    <%= f.input :qtde%>
+    <%= f.submit "Submit", class: "btn btn-success" %>
+  <%end %>
+</div>
